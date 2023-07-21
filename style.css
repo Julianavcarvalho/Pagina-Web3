@@ -81,17 +81,48 @@ a {
     color: white;
 }
 
-.logo h1 {
+.logo h1, .logo h2 {
     font: 700 2rem 'Lucida', sans-serif;
     color: white;
     margin: 2rem 0;
 }
 
+.logo h2 {
+    color: black;
+}
+
 .grid h4 {
+    color: white;
+    font: 700 1.2rem 'Lucida', sans-serif;
+}
+
+.grid p, .grid a {
     color: white;
     font: 500 1rem 'Lucida', sans-serif;
 }
 
+.grid-dois {
+    display: flex;
+    flex-direction: column  ;
+}
+
+
 .grid {
     margin: 2.7rem 0;
+}
+
+.icones img {
+    width: 1.4rem;
+}
+
+input {
+    width: 16rem;
+    height: 1.2rem;
+    border-radius: 0.7rem;
+}
+
+button {
+    padding: 4px 8px;
+    border-radius: 0.2rem;
+    
 }
